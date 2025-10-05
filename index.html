@@ -1,47 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charity: Water — College Student Campaign</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <img src="img/cw_logo.png" alt="charity: water logo" class="logo" />
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#impact">Impact</a>
+        <a href="#donate" class="btn">Donate</a>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="img/hero-image.png" alt="Smiling girl holding water" class="hero-bg" />
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Small Donations,<br><span>Big Change.</span></h1>
+      <p>100% of your gift brings clean, safe water to people around the world.</p>
+      <a href="#donate" class="cta-btn">Donate Now</a>
+    </div>
+  </section>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
+  <!-- About Section -->
+  <section id="about" class="about container">
+    <h2>Why Water?</h2>
+    <p>
+      Every person deserves access to clean water. Your donations help build wells,
+      support sustainable water systems, and transform entire communities.
+    </p>
+  </section>
+
+  <!-- Impact Section -->
+  <section id="impact" class="impact">
+    <div class="container">
+      <h2>Your Impact</h2>
+      <div class="stats">
+        <div class="stat">
+          <h3>15M+</h3>
+          <p>People Served</p>
         </div>
-    </section>
+        <div class="stat">
+          <h3>29</h3>
+          <p>Countries Reached</p>
+        </div>
+        <div class="stat">
+          <h3>100%</h3>
+          <p>Public Donations Fund Projects</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+  <!-- Donate Section -->
+  <section id="donate" class="donate container">
+    <h2>Join the Movement</h2>
+    <p>Your contribution, no matter how small, creates ripples of change.</p>
+    <a href="#" class="cta-btn pulse">Make a Real Impact</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Charity: Water | Built with ❤️ for educational purposes</p>
+    </div>
+  </footer>
 </body>
 </html>
